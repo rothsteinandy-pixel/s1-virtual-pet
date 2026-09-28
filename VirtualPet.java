@@ -35,5 +35,8 @@ public class VirtualPet {
         hunger = hunger + 1;
         face.setImage("asleep");
     }
+    public void isDance(){
+        face.setImage(null);
+    }
 
 } // end Virtual Pet
